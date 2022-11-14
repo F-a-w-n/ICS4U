@@ -1,0 +1,42 @@
+Efficiency:
+two types, space and time.
+
+Space:
+-how much room in RAM or storage does the program take up?
+-space is abundant these days, not as important to be efficient.
+-e.g. mr mckenzie's first machine had a 40mb hard drive and 1 mb of RAM, it was 70$/M to expand it
+-mainly important for portable devices these days
+
+Time:
+-time efficiency always matters (we stan time efficiency)
+-faster you do something, the more you can do
+-Big-O notation looks at the "order" of the number of operations it takes
+-the less steps it takes, the faster and more efficient it is
+-we always measure based on some variable N
+-can be integer, length of a string, or array
+
+Big-O:
+-all that matters is the order
+-we dont care about constants or scalars or lower orders
+
+int tot=0;
+for(int i=0; i<n; i++) {
+  tot+=i;
+}
+out.println(tot);
+
+3n+3 operations -> O(n)
+
+int tot=0;
+for (int i=0; i<n; i++) {
+  for (int j=0; j<n; j++) {
+    tot+=i*j;
+  }
+}
+out.println(tot);
+
+O(n^2)
+
+lg n only when it doubles or halves
+2^n only branching recursion
+n! only recursion in a loop (for whatever call self)

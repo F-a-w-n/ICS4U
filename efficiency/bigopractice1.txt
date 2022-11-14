@@ -1,0 +1,63 @@
+1) efficiency is important for the sake of portable, single purpose devices such as alarm systems.
+The more efficient the program is, the less hardware is required to make them, saving money.
+
+2)a) O(n)
+b) O(n^3)
+c) O(n)
+d) O(nlgn)
+
+1) space efficiency is the amount of storage or RAM the program takes to run, this type of efficiency is important in portable and single-purpose devices like an mp3 player. This is because the less storage a program takes, the less storage is needed in the device.
+2)a) O(n^2)
+b) O(n^2)
+c) O(n^2)
+d) O(n) //tried to be O(nlogn)
+
+batch 2:
+1) space efficiency is the amount of storage or RAM the program takes to run, this type of efficiency is important in portable and single-purpose devices like an mp3 player. This is because the less storage a program takes, the less storage is needed in the device.
+
+2) a) O(n)
+b) O(1)
+c) O(n^2)
+d) O(n^2)
+
+1) a)
+for (int i=0; i<n; i++) {
+  for (int j=0; j<n; j++) {
+    System.out.println(i*j);
+  }
+}
+b)
+int repeet (n) {
+  if (n<=1) {
+    return 1;
+  } else {
+    return n + repeet(n-1); 
+  }
+}
+2) a) O(n^2)
+b) O(lgn)
+c) O(n)
+d) O(n^2) 
+
+batch 3:
+1) space efficiency is the amount of storage or RAM that is taken up by a program.It is typically less important than time efficiency as most devices can easily have enough storage for a program, but time decreasing is always beneficial
+2) a) O(n^3)
+b) O(nlgn)
+c) O(n)
+d) O(lgn)
+
+2) a) O(1)
+b) O(n^2)
+c) O(n)
+d) O(nlgn) //really O(n)
+
+
+batch 4:
+a) O(1)
+b) O(lgn)
+C) O(n^2)
+d) O(n)
+e) O(n)
+f) O(lgn)
+g) O(n)
+h) O(n^2)
